@@ -1,0 +1,23 @@
+{
+  "name": "todolistappao1",
+  "version": "1.0.0",
+  "description": "simple vanilla js project",
+  "default": "src/index.html",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbroberts/todolistao1.git"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "Graham Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbroberts/todolistao1/issues"
+  },
+  "homepage": "https://github.com/gbroberts/todolistao1#readme"
+}
