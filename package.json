@@ -4,7 +4,9 @@
   "description": "simple vanilla js project",
   "default": "src/index.html",
   "scripts": {
-    "test": "none"
+    "test": "none",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/gbroberts/todolistao1/issues"
   },
-  "homepage": "https://github.com/gbroberts/todolistao1#readme"
+  "homepage": "https://github.com/gbroberts/todolistao1#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "http-server": "^13.0.2",
+    "parcel": "^2.0.0-rc.0",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
 }
